@@ -4,7 +4,7 @@ header{
 }
 main{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     height: 80vh;
     width: 100%;
