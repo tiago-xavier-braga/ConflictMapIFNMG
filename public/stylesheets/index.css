@@ -49,7 +49,6 @@ a{
 }
 .action a:hover {
     text-decoration: underline;
-    color: var(--color-grey);
 }
 main{
     display: flex;
@@ -62,4 +61,3 @@ iframe{
     height: 98vh;
     width: 100%;
 }
-
