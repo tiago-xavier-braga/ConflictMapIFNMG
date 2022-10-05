@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ceb46e887.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/stylesheets/index.css">
     <link rel="stylesheet" href="./public/stylesheets/responsive.css">
     <title>Conflict Map</title>
@@ -14,16 +15,22 @@
             <div class="logoBox">
                 <a href="">Lorem ipsum!</a>
             </div> 
-            <div class="action">
-                <a href="">Lorem</a>
-                <a href="">Lorem</a>
-                <a href="">Lorem</a>
+            <div class="buttonNavBar">
+                <button id="btnNavBar" onclick="onNavbar()">
+                    <p><i class="fa-solid fa-bars"></i></p>
+                </button>
             </div>
         </div>
     </header>
-    <main>
+    <div class="actionNavBar" id="divActionNavBar">
+        <a href="">Lorem</a>
+        <a href="">Lorem</a>
+        <a href="">Lorem</a>
+    </div>
+    <main id="mainBody">
         <iframe src="./public/templates/map.html" frameborder="0"></iframe>
     </main>
     <script src="public/js/mapSizingJS.js"></script> <!-- Script that fix the image map -->
+    <script src="public/js/animationNavBar.js"></script>
 </body>
 </html>
