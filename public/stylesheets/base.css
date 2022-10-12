@@ -3,16 +3,35 @@
     --color-hover: #cccccc;
     --font-page: 'Merriweather', serif;
 }
+
+/* Mobile */
 main{
     margin: 0;
     background-color: var(--color-hover);
     min-height: 80vh;
 }
 .content{
-    width: 50%;
+    width: 80%;
     min-height: 30vh;
     background-color: #fff;
     margin: 4% 0 4% 0;
-    border-radius: 10px;
-    padding: 5%;
+    border-radius: 15px;
+    padding: 4%;
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+    main{
+        margin: 0;
+        background-color: var(--color-hover);
+        min-height: 80vh;
+    }
+    .content{
+        width: 50%;
+        min-height: 30vh;
+        background-color: #fff;
+        margin: 4% 0 4% 0;
+        border-radius: 10px;
+        padding: 5%;
+    }
 }
