@@ -1,13 +1,17 @@
 :root{
+    --color-indigo-dye: #124e78;
+    --color-light-goldenrot-yellow: #f0f0c9;
+    --color-orange-yellow: #f2bb05;
+    --color-burnt-orange: #d74e09;
+    --color-blood-red: #6e0e0a;
     --color-grey: #c7c7c7;
     --color-hover: #cccccc;
     --font-page: 'Merriweather', serif;
 }
-
 /* Mobile */
 main{
     margin: 0;
-    background-color: var(--color-hover);
+    background-color: var(--color-orange-yellow);
     min-height: 80vh;
 }
 .content{
@@ -21,11 +25,6 @@ main{
 
 /* Desktop */
 @media screen and (min-width: 768px) {
-    main{
-        margin: 0;
-        background-color: var(--color-hover);
-        min-height: 80vh;
-    }
     .content{
         width: 50%;
         min-height: 30vh;
